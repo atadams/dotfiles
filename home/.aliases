@@ -73,4 +73,6 @@ alias gstash='env GIT_SSL_NO_VERIFY=true git'
 
 alias geoip='geoiplookup'
 
+# no corrects
 alias gibo='nocorrect gibo'
+alias stree='nocorrect stree'
