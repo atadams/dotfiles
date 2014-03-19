@@ -45,14 +45,15 @@ plugins=(bower gem git git-extras git-flow git-status gitignore heroku history n
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:$HOME/bin:/usr/local/share/npm/bin
+export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:$HOME/bin:/usr/local/share/npm/bin
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
-rvm use default
+# rvm use default
 
 
-# PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 
 # `brew --prefix` /etc/profile.d/z.sh
