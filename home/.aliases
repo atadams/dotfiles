@@ -74,15 +74,15 @@ alias wgetall='wget -E -H -k -K -p'
 
 # Stash server
 alias gstash='env GIT_SSL_NO_VERIFY=true git'
-alias geoip='geoiplookup'
+alias geoip='geoiplookup -d ~/Documents/GeoIP'
 
 # no corrects
 alias gibo='nocorrect gibo'
 alias stree='nocorrect stree'
 alias ffmpeg='nocorrect ffmpeg'
 
-alias zshconfig='subl ~/.zshrc'
-alias ohmyzsh='subl ~/.oh-my-zsh'
+alias zshconfig='$EDITOR ~/.zshrc'
+alias ohmyzsh='$EDITOR ~/.oh-my-zsh'
 
 # Vagrant
 alias vu='vagrant up'
